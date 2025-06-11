@@ -1,0 +1,2 @@
+source /home/Erectum/ESP_CODE/ili9488_display/build/bootloader/gdbinit/symbols
+source /home/Erectum/ESP_CODE/ili9488_display/build/bootloader/gdbinit/connect
