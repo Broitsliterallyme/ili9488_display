@@ -18,8 +18,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file /home/Erectum/ESP_CODE/ili9488_display/build/bootloader/bootloader.elf
+    add-symbol-file /home/Erectum/Documents/ESP_CODE/ili9488_display/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file /home/Erectum/ESP_CODE/ili9488_display/build/ili9488_display.elf
+file /home/Erectum/Documents/ESP_CODE/ili9488_display/build/ili9488_display.elf

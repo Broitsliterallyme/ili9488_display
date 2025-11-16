@@ -1,4 +1,4 @@
-# Install script for directory: /home/Erectum/ESP_CODE/ili9488_display/main
+# Install script for directory: /home/Erectum/Documents/ESP_CODE/ili9488_display/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/Erectum/ESP_CODE/ili9488_display/build/esp-idf/main/install_local_manifest.txt"
+  file(WRITE "/home/Erectum/Documents/ESP_CODE/ili9488_display/build/esp-idf/main/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

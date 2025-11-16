@@ -10,18 +10,18 @@ if(NOT EXISTS "/home/Erectum/esp/esp-idf/components/bootloader/subproject")
   file(MAKE_DIRECTORY "/home/Erectum/esp/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "/home/Erectum/ESP_CODE/ili9488_display/build/bootloader"
-  "/home/Erectum/ESP_CODE/ili9488_display/build/bootloader-prefix"
-  "/home/Erectum/ESP_CODE/ili9488_display/build/bootloader-prefix/tmp"
-  "/home/Erectum/ESP_CODE/ili9488_display/build/bootloader-prefix/src/bootloader-stamp"
-  "/home/Erectum/ESP_CODE/ili9488_display/build/bootloader-prefix/src"
-  "/home/Erectum/ESP_CODE/ili9488_display/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/Erectum/Documents/ESP_CODE/ili9488_display/build/bootloader"
+  "/home/Erectum/Documents/ESP_CODE/ili9488_display/build/bootloader-prefix"
+  "/home/Erectum/Documents/ESP_CODE/ili9488_display/build/bootloader-prefix/tmp"
+  "/home/Erectum/Documents/ESP_CODE/ili9488_display/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/Erectum/Documents/ESP_CODE/ili9488_display/build/bootloader-prefix/src"
+  "/home/Erectum/Documents/ESP_CODE/ili9488_display/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/Erectum/ESP_CODE/ili9488_display/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/Erectum/Documents/ESP_CODE/ili9488_display/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/Erectum/ESP_CODE/ili9488_display/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/Erectum/Documents/ESP_CODE/ili9488_display/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

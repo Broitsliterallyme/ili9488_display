@@ -1,4 +1,2 @@
-# main/CMakeLists.txt
-idf_component_register(SRCS "main.c" "font5x7.c"
-
+idf_component_register(SRCS "main.c" "easy_crc.c"
                     INCLUDE_DIRS ".")
